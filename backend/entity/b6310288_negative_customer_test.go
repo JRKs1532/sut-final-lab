@@ -15,7 +15,7 @@ func TestNegativeCustomerID(t *testing.T) {
 		c := Customer{
 			Name:       "Jee",
 			Email:      "jee@gmail.com",
-			CustomerID: "M1234567",
+			CustomerID: "M1234564455",
 		}
 
 		ok, err := govalidator.ValidateStruct(c)
